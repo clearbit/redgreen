@@ -10,7 +10,7 @@ require 'sinatra/base'
 module Redgreen
   class App < Sinatra::Application
     get '/' do
-      erb :orange
+      erb :green
     end
   end
 end
